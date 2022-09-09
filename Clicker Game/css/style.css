@@ -1,0 +1,108 @@
+/* Configuration du click : gold */
+
+.clicker img {
+  position: relative;
+}
+
+.clicker img:hover {
+  transform: scale(1.11);
+}
+
+.clicker img:active {
+  transform: scale(0.99);
+}
+
+/* Bloc gauche */
+
+.left {
+  float: left;
+  width: 70%;
+  text-align: center;
+}
+
+/* Bloc droit */
+
+.right {
+  float: right;
+  width: 30%;
+  text-align: center;
+}
+
+/* Titre des deux blocs */
+
+h1 {
+  margin: 5%;
+  margin-top: 0%;
+  text-align: center;
+  font-family: 'Fredericka the Great', cursive;
+  color: #953723;
+}
+
+/* Bloc du click */
+
+.bloc {
+  display:block;
+  margin: 10px auto;
+  width: 400px;
+  padding: 6px 10px;
+  border:none;
+  box-sizing: border-box;
+  font-family: 'Fredericka the Great', cursive;
+  border-radius: 20px;
+  background-color: rgba(128, 128, 128, 0.466);
+  font-size: 25px;
+  
+}
+
+.pgold {
+  color: #D6F223;
+}
+
+/* Arrière plan */
+
+body {
+  background-image: url(../img/dungeon.jpg);
+  background-size: cover;
+}
+
+/* Configuration du click : achat */
+
+.buy {
+  background-color: rgba(128, 128, 128, 0.466);
+  border-radius:20px;
+  width: 95%;
+  margin: 15px 0px 10px 0px;
+}
+
+.buy:hover {
+  transform: scale(1.11);
+}
+
+.buy #display {
+  margin : 0px;
+  width: 60%;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+.buy #amount {
+  font-size: 35px;
+  color: #953723;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+/* Configuration des images du shop */
+
+.image {
+  width : 25%;
+}
+
+.sizeimg {
+  height: 64px;
+  width: 64px;
+}
+
+/* Titre des items */
+
+.sizetext {
+  font-size: 20px;
+}

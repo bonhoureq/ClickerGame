@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="../img/icon.png" rel="icon" />
+    <title>Clicker Sword Dungeon</title>
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8" />
+</head>
+
+<body>
+
+    <div class="left">
+
+        <h1>Clicker Sword Dungeon</h1>
+
+        <div class="bloc">
+            <section id="gold" class="pgold"></section>
+            <section id="gps"></section>
+            <div class="clicker">
+                <img src="../img/monster.png" onclick="counter()" class="button">
+            </div>
+        </div>
+
+    </div>
+
+    <section class="right">
+
+        <h1><b>Shop Sword</b></h1>
+
+        <table class="buy" onclick="buyMinion('1')">
+            <tr>
+                <td id="image"><img class="sizeimg" src="../img/woodensword.png"></td>
+                <td id="display">
+                    <p class="sizetext">Wooden Sword</p>
+                    <p><span id=cost1>10</span> Golds</p>
+                </td>
+                <td id="amount"><span id=owned1>0</span></td>
+            </tr>
+        </table>
+
+        <table class="buy" onclick="buyMinion('2')">
+            <tr>
+                <td id="image"><img class="sizeimg" src="../img/stonesword.png"></td>
+                <td id="display">
+                    <p class="sizetext">Stone Sword</p>
+                    <p><span id=cost2>5000</span> Golds</p>
+                </td>
+                <td id="amount"><span id=owned2>0</span></td>
+            </tr>
+        </table>
+
+        <table class="buy" onclick="buyMinion('3')">
+            <tr>
+                <td id="image"><img class="sizeimg" src="../img/ironsword.png"></td>
+                <td id="display">
+                    <p class="sizetext">Iron Sword</p>
+                    <p><span id=cost3>150000</span> Golds</p>
+                </td>
+                <td id="amount"><span id=owned3>0</span></td>
+            </tr>
+        </table>
+
+        <table class="buy" onclick="buyMinion('4')">
+            <tr>
+                <td id="image"><img class="sizeimg" src="../img/dispelda.png"></td>
+                <td id="display">
+                    <p class="sizetext">Dispelda</p>
+                    <p><span id=cost4>1150000</span> Golds</p>
+                </td>
+                <td id="amount"><span id=owned4>0</span></td>
+            </tr>
+        </table>
+
+        <table class="buy" onclick="buyMinion('5')">
+            <tr>
+                <td id="image"><img class="sizeimg" src="../img/katana.png"></td>
+                <td id="display">
+                    <p class="sizetext">Zanma no Katana</p>
+                    <p><span id=cost5>35000000</span> Golds</p>
+                </td>
+                <td id="amount"><span id=owned5>0</span></td>
+            </tr>
+        </table>
+
+        <table class="buy" onclick="buyMinion('6')">
+            <tr>
+                <td id="image"><img class="sizeimg" src="../img/divinesword.png"></td>
+                <td id="display">
+                    <p class="sizetext">Divine Sword</p>
+                    <p><span id=cost6>5000000000</span> Golds</p>
+                </td>
+                <td id="amount"><span id=owned6>0</span></td>
+            </tr>
+        </table>
+
+    </section>
+
+</body>
+
+<script src="../javascript/script.js"></script>
+
+</html>
